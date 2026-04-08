@@ -108,9 +108,10 @@ http://localhost:5000/api
 ## Screenshots
 
 ### Landing Page
+https://github.com/aswinram312004-droid/Doctor-Appointment-Booking-System/blob/main/landingpage.jpeg
 
-
-### Doctors Page
+### Database Page
+https://github.com/aswinram312004-droid/Doctor-Appointment-Booking-System/blob/main/Database.png
 
 
 ### Booking Page
