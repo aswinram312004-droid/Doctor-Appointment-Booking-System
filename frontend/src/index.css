@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+
+.hero-dots {
+  background-image: radial-gradient(circle at center, #0EA5E9 1.5px, transparent 1.5px);
+  background-size: 40px 40px;
+}
+
+/* Heartbeat line animation */
+.heartbeat-line {
+  animation: heartbeatMove 3s linear infinite;
+}
+
+/* Pulse wave motion */
+@keyframes heartbeatMove {
+  0% {
+    stroke-dashoffset: 1400;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Real heartbeat effect (scale pulse) */
+.heartbeat-line {
+  transform-origin: center;
+  animation: heartbeatMove 3s linear infinite, heartBeatScale 1.2s ease-in-out infinite;
+}
+
+@keyframes heartBeatScale {
+  0%, 100% {
+    transform: scaleY(1);
+  }
+  25% {
+    transform: scaleY(1.4);
+  }
+  50% {
+    transform: scaleY(0.8);
+  }
+  75% {
+    transform: scaleY(1.2);
+  }
+}
