@@ -104,3 +104,18 @@ http://localhost:5000/api
 * Appointment conflicts are prevented at database level
 * Application is configured for local development
 
+
+## Screenshots
+
+### Landing Page
+
+
+### Doctors Page
+
+
+### Booking Page
+
+
+### Appointments Dashboard
+
+
