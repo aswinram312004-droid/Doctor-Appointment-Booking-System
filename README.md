@@ -114,9 +114,6 @@ https://github.com/aswinram312004-droid/Doctor-Appointment-Booking-System/blob/m
 https://github.com/aswinram312004-droid/Doctor-Appointment-Booking-System/blob/main/Database.png
 
 
-### Booking Page
 
-
-### Appointments Dashboard
 
 
